@@ -132,7 +132,7 @@ function getData(x, coin, message) {
 				"author":
 				{
 					"name": coin + " ",
-					"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/" + coin.toLowerCase() + ".png"
+					"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/" + coin.toLowerCase() + ".png"
 				},
 				"description": "Current blockchain status for " + coin,
 				"fields":
@@ -341,7 +341,7 @@ client.on("message", (message) => {
 									"author":
 									{
 										"name": "Bitcoin ",
-										"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/bitcoin.png"
+										"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/bitcoin.png"
 									},
 									"description": "Bitcoin block data for [block #" + numberWithCommas(JSON.parse(tempBlockData).height.toString()) + "](https://live.blockcypher.com/btc/block/" + JSON.parse(tempBlockData).height + ")",
 									"fields":
@@ -424,7 +424,7 @@ client.on("message", (message) => {
 										"author":
 										{
 											"name": "Bitcoin ",
-											"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/bitcoin.png"
+											"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/bitcoin.png"
 										},
 										"description": "Transaction data for transaction [" + JSON.parse(tempBlockData).hash + "](https://live.blockcypher.com/btc/tx/" + JSON.parse(tempBlockData).hash + ")",
 										"fields":
@@ -493,7 +493,7 @@ client.on("message", (message) => {
 										"author":
 										{
 											"name": "Bitcoin ",
-											"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/bitcoin.png"
+											"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/bitcoin.png"
 										},
 										"description": "Transaction data for transaction [" + JSON.parse(tempBlockData).hash + "](https://live.blockcypher.com/btc/tx/" + JSON.parse(tempBlockData).hash + ")",
 										"fields":
@@ -573,7 +573,7 @@ client.on("message", (message) => {
 								"author":
 								{
 									"name": "Bitcoin ",
-									"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/bitcoin.png"
+									"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/bitcoin.png"
 								},
 								"description": "Information about the Bitcoin address [" + JSON.parse(tempBlockData).address + "](https://live.blockcypher.com/btc/address/" + JSON.parse(tempBlockData).address + ")",
 								"fields":
@@ -660,7 +660,7 @@ client.on("message", (message) => {
 								"author":
 								{
 									"name": "Litecoin ",
-									"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/litecoin.png"
+									"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/litecoin.png"
 								},
 								"description": "Litecoin block data for [block #" + numberWithCommas(JSON.parse(tempBlockData).height.toString()) + "](https://live.blockcypher.com/ltc/block/" + JSON.parse(tempBlockData).height + ")",
 								"fields":
@@ -744,7 +744,7 @@ client.on("message", (message) => {
 									"author":
 									{
 										"name": "Litecoin ",
-										"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/litecoin.png"
+										"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/litecoin.png"
 									},
 									"description": "Transaction data for transaction [" + JSON.parse(tempBlockData).hash + "](https://live.blockcypher.com/ltc/tx/" + JSON.parse(tempBlockData).hash + ")",
 									"fields":
@@ -813,7 +813,7 @@ client.on("message", (message) => {
 										"author":
 										{
 											"name": "Litecoin ",
-											"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/litecoin.png"
+											"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/litecoin.png"
 										},
 										"description": "Transaction data for transaction [" + JSON.parse(tempBlockData).hash + "](https://live.blockcypher.com/ltc/tx/" + JSON.parse(tempBlockData).hash + ")",
 										"fields":
@@ -893,7 +893,7 @@ client.on("message", (message) => {
 								"author":
 								{
 									"name": "Litcoin ",
-									"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/litecoin.png"
+									"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/litecoin.png"
 								},
 								"description": "Information about the Litcoin address [" + JSON.parse(tempBlockData).address + "](https://live.blockcypher.com/ltc/address/" + JSON.parse(tempBlockData).address + ")",
 								"fields":
@@ -980,7 +980,7 @@ client.on("message", (message) => {
 								"author":
 								{
 									"name": "Dash ",
-									"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/dash.png"
+									"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/dash.png"
 								},
 								"description": "Dash block data for [block #" + numberWithCommas(JSON.parse(tempBlockData).height.toString()) + "](https://live.blockcypher.com/dash/block/" + JSON.parse(tempBlockData).height + ")",
 								"fields":
@@ -1064,7 +1064,7 @@ client.on("message", (message) => {
 									"author":
 									{
 										"name": "Dash ",
-										"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/dash.png"
+										"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/dash.png"
 									},
 									"description": "Transaction data for transaction [" + JSON.parse(tempBlockData).hash + "](https://live.blockcypher.com/dash/tx/" + JSON.parse(tempBlockData).hash + ")",
 									"fields":
@@ -1133,7 +1133,7 @@ client.on("message", (message) => {
 									"author":
 									{
 										"name": "Dash ",
-										"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/dash.png"
+										"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/dash.png"
 									},
 									"description": "Transaction data for transaction [" + JSON.parse(tempBlockData).hash + "](https://live.blockcypher.com/dash/tx/" + JSON.parse(tempBlockData).hash + ")",
 									"fields":
@@ -1213,7 +1213,7 @@ client.on("message", (message) => {
 								"author":
 								{
 									"name": "Dash ",
-									"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/dash.png"
+									"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/dash.png"
 								},
 								"description": "Information about the Dash address [" + JSON.parse(tempBlockData).address + "](https://live.blockcypher.com/dash/address/" + JSON.parse(tempBlockData).address + ")",
 								"fields":
@@ -1316,18 +1316,6 @@ client.on("message", (message) => {
 				break;
 			default :
 				var found = 0;
-				// var newTime = (new Date).getTime();
-				// if (newTime-origTime > 300000) {
-				// 	getJSON("https://api.coinmarketcap.com/v1/ticker/?limit=2000&convert=USD", function(error, response) {
-				// 		while (coinMarketCapApiCall.length > 0) {
-				// 			coinMarketCapApiCall.shift();
-				// 		}
-				// 		for (var i = 0; i < response.length; i++) {
-				// 			coinMarketCapApiCall.push(JSON.stringify(response[i]));
-				// 		}
-				// 	});
-				// 	origTime = (new Date).getTime();
-				// }
 				for (var i = 0; i < coinMarketCapApiCall.length; i++) {
 					var coinData = [JSON.parse(coinMarketCapApiCall[i]).name, JSON.parse(coinMarketCapApiCall[i]).id.toLowerCase(), JSON.parse(coinMarketCapApiCall[i]).rank, JSON.parse(coinMarketCapApiCall[i]).symbol.toLowerCase(), JSON.parse(coinMarketCapApiCall[i]).price_usd, JSON.parse(coinMarketCapApiCall[i]).price_btc, JSON.parse(coinMarketCapApiCall[i]).market_cap_usd, JSON.parse(coinMarketCapApiCall[i]).available_supply, JSON.parse(coinMarketCapApiCall[i]).total_supply, JSON.parse(coinMarketCapApiCall[i]).max_supply, JSON.parse(coinMarketCapApiCall[i]).percent_change_1h, JSON.parse(coinMarketCapApiCall[i]).percent_change_24h, JSON.parse(coinMarketCapApiCall[i]).percent_change_7d];
 					if (coinData[0] == command || coinData[3] == command || coinData[1] == command || coinData[2] == command) {
@@ -1351,7 +1339,7 @@ client.on("message", (message) => {
 									"author":
 									{
 										"name": "#" + coinData[2] + " " + coinData[0] + " (" + coinData[3].toUpperCase() + ")",
-										"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/" + coinData[1] + ".png"
+										"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/" + coinData[1] + ".png"
 									},
 									"description": "Current market information for " + coinData[0],
 									"fields":
@@ -1415,7 +1403,7 @@ client.on("message", (message) => {
 									"color": coinColorCalled,
 									"author": {
 										"name": "#" + coinData[2] + " " + coinData[0] + " (" + coinData[3].toUpperCase() + ")",
-										"icon_url": "https://raw.githubusercontent.com/dziungles/cryptocurrency-logos/master/coins/64x64/" + coinData[1] + ".png"
+										"icon_url": "https://raw.githubusercontent.com/The120thWhisper/Crypto-Discord-Bot/master/coins/" + coinData[1] + ".png"
 									},
 									"description": "Current market information for " + coinData[0],
 									"fields":
